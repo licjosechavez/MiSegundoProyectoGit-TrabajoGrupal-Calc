@@ -13,36 +13,36 @@
   <body>
     <table>
       <tr>
-        <td colspan="4"><button id="result">0</button></td>
+        <td colspan="4"><button class="result" id="result">0</button></td>
       </tr>
       <hr>
       <tr>
-        <td><button onclick="add('1')">1</button></td>
-        <td><button onclick="add('2')">2</button></td>
-        <td><button onclick="add('3')">3</button></td>
-        <td><button onclick="add('+')">+</button></td>
+        <td><button class="number" onclick="add('1')">1</button></td>
+        <td><button class="number" onclick="add('2')">2</button></td>
+        <td><button class="number" onclick="add('3')">3</button></td>
+        <td><button class="operation" onclick="add('+')">+</button></td>
       </tr>
       <tr>
-        <td><button onclick="add('4')">4</button></td>
-        <td><button onclick="add('5')">5</button></td>
-        <td><button onclick="add('6')">6</button></td>
-        <td><button onclick="add('-')">-</button></td>
+        <td><button class="number" onclick="add('4')">4</button></td>
+        <td><button class="number" onclick="add('5')">5</button></td>
+        <td><button class="number" onclick="add('6')">6</button></td>
+        <td><button class="operation" onclick="add('-')">-</button></td>
       </tr>
       <tr>
-        <td><button onclick="add('7')">7</button></td>
-        <td><button onclick="add('8')">8</button></td>
-        <td><button onclick="add('9')">9</button></td>
-        <td><button onclick="add('*')">*</button></td>
+        <td><button class="number" onclick="add('7')">7</button></td>
+        <td><button class="number" onclick="add('8')">8</button></td>
+        <td><button class="number" onclick="add('9')">9</button></td>
+        <td><button class="operation" onclick="add('*')">*</button></td>
       </tr>
       <tr>
-        <td colspan="2"><button onclick="add('0')">0</button></td>
-        <td colspan="1"><button onclick="add('**')">x²</button></td>
-        <td colspan="1"><button onclick="add('/')">/</button></td>
+        <td colspan="2"><button class="number" onclick="add('0')">0</button></td>
+        <td colspan="1"><button class="number" onclick="add('**')">x²</button></td>
+        <td colspan="1"><button class="operation" onclick="add('/')">/</button></td>
       </tr>
       <tr>
-        <td colspan="2"><button onclick="del()" class="ac">AC</button></td>
-        <td><button onclick="add('.')">.</button></td>
-        <td><button onclick="calc()">=</button></td>
+        <td colspan="2"><button class="number" onclick="del()" class="ac">AC</button></td>
+        <td><button class="number" onclick="add('.')">.</button></td>
+        <td><button class="operation" onclick="calc()">=</button></td>
       </tr>
     </table>
   </body>
